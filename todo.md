@@ -1,0 +1,24 @@
+- [x] Dark mode
+- [ ] Add dark mode button on settings.
+- [ ] Create the settings page.
+- [ ] Create and add theme options button on settings.
+- [x] Create`DashboardSidebarTag` component.
+- [ ] Add tags and tags input on star list item.
+- [ ] Add tiptap button active color.
+- [ ] Fix tiptap color input to work.
+- [ ] Format and style markdown check the astral readme component.
+- [ ] Suggest tags with ai ollama/chatgpt.
+- [ ] Add focus trap to the input add tag.
+- [ ] Add functionality for button (all stars & untagged stars) to have bg color as the hover when is active.
+- [ ] Responsiveness layout.
+- [ ] Fix Responsiveness navbar of the readme/notes.
+- [ ] Fix Responsiveness readme prose.
+- [ ] The language category is similar to tag. The first problem is we can face the dubblecation of the language category and tag. To fix this we will remove the language category and we store as a tag.
+- [ ] Maybe the user can change the original tag to something else.
+- [ ] Add and redesign search bar add filters components.
+- [ ] On refresh for stars display the progressbar.
+- [ ] Make the tags as list or queue.
+- [ ] Add button to share the repo on the social media.
+- [ ] Option for sharable multiple github project.
+- [ ] When unstar don't delete it from database and keep it as trash or historical.
+- [ ] View statistics of the repos instead on empty unselected repo.

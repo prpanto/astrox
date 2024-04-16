@@ -1,0 +1,10 @@
+@font-face{
+  font-family: Nasalization;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nasalization'), url(../fonts/nasaliza.woff) format('woff')
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,49 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "migrate": "prisma migrate dev",
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.20",
+    "@iconify/json": "^2.2.201",
+    "@nuxt/ui-pro": "^1.1.0",
+    "@octokit/core": "^6.1.2",
+    "@tanstack/vue-query": "^5.29.0",
+    "@tiptap/extension-highlight": "^2.3.0",
+    "@tiptap/extension-text-align": "^2.3.0",
+    "@tiptap/pm": "^2.3.0",
+    "@tiptap/starter-kit": "^2.3.0",
+    "@tiptap/vue-3": "^2.3.0",
+    "@vueuse/gesture": "^2.0.0",
+    "@vueuse/motion": "^2.1.0",
+    "@vueuse/nuxt": "^10.9.0",
+    "h3": "^1.11.1",
+    "h3-zod": "^0.5.3",
+    "lodash": "^4.17.21",
+    "nuxt-auth-utils": "^0.0.22",
+    "prisma": "^5.12.1",
+    "radix-vue": "^1.7.0",
+    "showdown": "^2.1.0",
+    "tailwind-merge": "^2.2.2",
+    "ufo": "^1.5.3",
+    "unstorage": "^1.10.2",
+    "vue": "^3.4.22",
+    "vue-router": "^4.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.1.5",
+    "@nuxtjs/fontaine": "^0.4.1",
+    "@prisma/client": "^5.12.1",
+    "nuxt": "^3.11.2",
+    "typescript": "^5.4.5"
+  }
+}
