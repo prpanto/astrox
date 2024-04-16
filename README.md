@@ -27,7 +27,7 @@ Astrox an open source application that allows you to organize your GitHub Stars 
 
 ## <a name="installation">Installation</a>
 
-1. `git clone https://github.com/propanto/astrox`
+1. `git clone https://github.com/prpanto/astrox`
 2. `pnpm install`
 3. `cp .env.example .env` and configure the `.env` file by your needs
 4. Set database configs on `.env` file
