@@ -32,9 +32,8 @@ Astrox an open source application that allows you to organize your GitHub Stars 
 3. `cp .env.example .env` and configure the `.env` file by your needs
 4. Set database configs on `.env` file
 5. `pnpm migrate`
-6. `pnpm seed`
-7. Install `Redis` on your machine and configure the `.env` file if needed
-8. `pnpm dev`
+6. Install `Redis` on your machine and configure the `.env` file if needed
+7. `pnpm dev`
 
 ## <a name="license">License</a>
 
