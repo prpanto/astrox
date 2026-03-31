@@ -2,11 +2,11 @@
 withDefaults(
   defineProps<{
     count?: number
-    starsColor?: string
+    color?: string
   }>(),
   {
     count: 200,
-    starsColor: '#fff'
+    color: '#fff'
   }
 );
 </script>
@@ -18,7 +18,7 @@ withDefaults(
         <div v-for="star in count" :key="'star_' + star"
           class="animate-stars size-[1.5vmin] absolute shadow-[0_0_20px_rgb(10,239,255)] transform-[translateZ(-100vmin)_rotateY(90deg)_rotateX(var(--rx))_translateZ(var(--x))_scaleX(1)]"
           :style="{
-            backgroundColor: starsColor,
+            backgroundColor: color,
             '--x': `${Math.random() * 200}vmax`,
             '--y': `${Math.random() * 100}vh`,
             '--z': `${Math.random() * 200 - 100}vmin`,
