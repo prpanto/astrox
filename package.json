@@ -10,10 +10,20 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
     "@nuxt/ui": "^4.6.0",
+    "better-auth": "^1.5.6",
+    "dotenv": "^17.3.1",
+    "drizzle-orm": "^0.45.2",
     "nuxt": "^4.4.2",
+    "std-env": "^4.0.0",
     "tailwindcss": "^4.2.2",
     "vue": "^3.5.31",
     "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
   }
 }
