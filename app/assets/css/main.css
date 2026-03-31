@@ -1,2 +1,13 @@
+@font-face {
+  font-family: Nasalization;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nasalization'), url(../fonts/nasaliza.woff) format('woff');
+}
+
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@theme {
+  --font-nasa: 'Nasalization', sans-serif;
+}
