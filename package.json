@@ -13,6 +13,7 @@
     "@neondatabase/serverless": "^1.0.2",
     "@nuxt/ui": "^4.6.0",
     "@tanstack/vue-query": "^5.96.0",
+    "awilix": "^13.0.3",
     "better-auth": "^1.5.6",
     "dotenv": "^17.3.1",
     "drizzle-orm": "^0.45.2",

@@ -17,6 +17,9 @@ importers:
       '@tanstack/vue-query':
         specifier: ^5.96.0
         version: 5.96.0(vue@3.5.31(typescript@6.0.2))
+      awilix:
+        specifier: ^13.0.3
+        version: 13.0.3
       better-auth:
         specifier: ^1.5.6
         version: 1.5.6(@opentelemetry/api@1.9.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@neondatabase/serverless@1.0.2)(@opentelemetry/api@1.9.1)(@types/pg@8.20.0)(kysely@0.28.15))(vue@3.5.31(typescript@6.0.2))
@@ -2351,6 +2354,10 @@ packages:
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
+
+  awilix@13.0.3:
+    resolution: {integrity: sha512-WpgYKwf8XEPAxabPxBYGvxz1QZhyxoopQLLqpwwVqSQAvTO46yhld3M9nfMuV8t2FjsTO7DQblALD9w+C8iVKQ==}
+    engines: {node: '>=20.0.0'}
 
   b4a@1.8.0:
     resolution: {integrity: sha512-qRuSmNSkGQaHwNbM7J78Wwy+ghLEYF1zNrSeMxj4Kgw6y33O3mXcQ6Ie9fRvfU/YnxWkOchPXbaLb73TkIsfdg==}
@@ -7108,6 +7115,10 @@ snapshots:
       picocolors: 1.1.1
       postcss: 8.5.8
       postcss-value-parser: 4.2.0
+
+  awilix@13.0.3:
+    dependencies:
+      fast-glob: 3.3.3
 
   b4a@1.8.0: {}
 
