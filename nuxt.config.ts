@@ -15,10 +15,4 @@ export default defineNuxtConfig({
   css: [
     "~/assets/css/main.css",
   ],
-
-  runtimeConfig: {
-    databaseUrl: process.env.DATABASE_URL,
-    githubClientId: process.env.GITHUB_CLIENT_ID,
-    githubClientSecret: process.env.GITHUB_CLIENT_SECRET,
-  }
 });
