@@ -7,7 +7,9 @@ export default defineNuxtConfig({
 
   modules: [
     "@nuxt/ui",
-    "@vueuse/nuxt"
+    "@vueuse/nuxt",
+    "@pinia/colada-nuxt",
+    "@pinia/nuxt"
   ],
 
   css: [
