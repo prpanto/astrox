@@ -1,6 +1,6 @@
 export default defineTask({
   meta: {
-    name: "github:stars-create",
+    name: "stars:insert",
     description: "Run task to insert the stars from github",
   },
   run({ name, payload, context }) {
