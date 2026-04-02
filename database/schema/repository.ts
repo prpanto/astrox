@@ -31,7 +31,10 @@ export const repository = pgTable("repository", {
 
   syncedAt: timestamp("synced_at").defaultNow().notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
-  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at")
+    .defaultNow()
+    .$onUpdate(() => /* @__PURE__ */ new Date())
+    .notNull(),
 });
 
 export const repositoriesRelations = relations(repository, ({ many }) => ({
