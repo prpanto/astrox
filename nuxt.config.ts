@@ -20,5 +20,11 @@ export default defineNuxtConfig({
     experimental: {
       tasks: true,
     },
+    imports: {
+      dirs: [
+        "server/services/**",
+        "server/repositories/**",
+      ],
+    },
   },
 });

@@ -1,5 +1,3 @@
-class StarService {
+export default class StarService {
   constructor() { }
-
-
 }

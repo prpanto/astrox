@@ -1,5 +1,3 @@
-class StarRepository {
+export default class StarRepository {
   constructor() { }
-
-
 }
