@@ -1,8 +1,10 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
 
+  // debug: true,
+
   devtools: {
-    enabled: true
+    enabled: true,
   },
 
   modules: [
@@ -19,12 +21,6 @@ export default defineNuxtConfig({
   nitro: {
     experimental: {
       tasks: true,
-    },
-    imports: {
-      dirs: [
-        "server/services/**",
-        "server/repositories/**",
-      ],
     },
   },
 });
