@@ -1,7 +1,8 @@
-import { asClass, createContainer, type AwilixContainer } from "awilix";
-
-const camelCase = (str: string) => str.charAt(0).toLowerCase() + str.slice(1);
-const pascalCase = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
+import {
+  type AwilixContainer,
+  createContainer,
+  asClass,
+} from "awilix";
 
 export default function container<D extends Dependencies>(dependencies: D): Container<D> {
   const container: AwilixContainer<D> = createContainer({
