@@ -7,11 +7,6 @@ export const starTag = pgTable("star_tag", {
   userId: text("user_id").notNull(),
   repoId: text("repo_id").notNull(),
   tagId: text("tag_id").notNull().references(() => tag.id, { onDelete: "cascade" }),
-  createdAt: timestamp("created_at").defaultNow().notNull(),
-  updatedAt: timestamp("updated_at")
-    .defaultNow()
-    .$onUpdate(() => /* @__PURE__ */ new Date())
-    .notNull(),
 }, (t) => ({
   pk: primaryKey({ columns: [t.userId, t.repoId, t.tagId] }),
 }));
