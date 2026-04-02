@@ -7,9 +7,9 @@ export const starTag = pgTable("star_tag", {
   userId: text("user_id").notNull(),
   repoId: text("repo_id").notNull(),
   tagId: text("tag_id").notNull().references(() => tag.id, { onDelete: "cascade" }),
-}, (t) => ({
-  pk: primaryKey({ columns: [t.userId, t.repoId, t.tagId] }),
-}));
+}, (t) => [
+  primaryKey({ columns: [t.userId, t.repoId, t.tagId] }),
+]);
 
 export const starTagRelations = relations(starTag, ({ one }) => ({
   star: one(star, {

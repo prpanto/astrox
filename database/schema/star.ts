@@ -13,9 +13,9 @@ export const star = pgTable("star", {
     .defaultNow()
     .$onUpdate(() => /* @__PURE__ */ new Date())
     .notNull(),
-}, (t) => ({
-  pk: primaryKey({ columns: [t.userId, t.repoId] }),
-}));
+}, (t) => [
+  primaryKey({ columns: [t.userId, t.repoId] }),
+]);
 
 export const starsRelations = relations(star, ({ one, many }) => ({
   user: one(user, {
